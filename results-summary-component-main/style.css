@@ -1,0 +1,223 @@
+
+/*
+    Josh's Custom CSS Reset
+    https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+    margin: 0;
+    /*border: 1px solid grey;*/
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+html,
+body {
+    height: 100%;
+    font-size: 18px;
+    background-color: black;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+/*
+    End of reset
+*/
+
+body {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+main {
+    display: grid;
+    justify-items: center;
+    max-width: 375px;
+    border: 1px solid grey;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.value{
+    color: hsl(293, 4%, 58%);
+}
+.line_wrapper {
+    margin-bottom: 17px;
+    padding: 15px;
+    border-radius: 10px;
+    display: grid;
+    max-width: 100%;
+    width: auto;
+    grid-template-columns: 0.5fr 3fr 2fr;
+    align-items: center;
+}
+.line_wrapper > .value{
+    align-self: end;
+    justify-self: end;
+} 
+.line_wrapper  mark{
+    background-color: inherit;
+    margin-right: 5px;
+}
+.line_wrapper .name {
+    margin-left: 9px;
+}
+
+/*result section*/
+
+.result_wrapper{
+    display: grid;
+    max-width: 366px;
+    justify-items: center;
+    background-image: linear-gradient(hsl(252,100%,67%), hsl(241,81%,54%));
+    border-radius: 0px 0px 35px 35px;
+    padding: 30px 20px;
+}
+.result_header{
+    color: hsl(221, 100%, 96%);
+    /*font-size: 20px;*/
+}
+.result_value {
+    padding: 12px 40px;
+    margin: 25px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 80px;
+    max-width: fit-content;
+    align-self: center;
+    text-align: center;
+}
+.result_value mark {
+    font-size: 60px;
+    background-color: inherit;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+.result_word{
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+}
+.result_explanation{
+    text-align: center;
+    color: hsl(293, 4%, 58%);
+}
+
+/*summary section*/
+
+.summary_wrapper {
+	display: grid;
+    /*max-width: 366px;*/
+	width: 100%;
+    padding: 30px;
+}
+.summary_header {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/*reaction section*/
+.reaction_wrapper{
+    background-color:hsla(0, 100%, 67%, 0.05);
+}
+.reaction_name {
+    color: hsl(0, 100%, 67%);
+}
+
+/*memory section*/
+.memory_wrapper{
+    background-color: hsla(39, 100%, 56%, 0.05);;
+}
+.memory_name {
+    color: hsl(39, 100%, 56%);
+}
+
+/*verbal section*/
+
+.verbal_wrapper{
+    background-color: hsla(166, 100%, 37%, 0.05);
+
+}
+.verbal_name {
+    color: hsl(166, 100%, 37%);
+}
+
+/*visual section*/
+
+.visual_wrapper{
+    background-color:hsla(234, 85%, 45%, 0.05);
+ ;
+}
+.visual_name {
+    color: hsl(234, 85%, 45%);
+}
+
+
+button, input[type="button"], input[type="submit"] {
+	margin: 0 auto;
+    width: 100%;
+    background-color:hsl(224, 30%, 27%);
+    padding: 17px;
+    border-radius: 35px;
+    border: none;
+    color: white;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+          appearance: none;
+}
+/*attribution section*/
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 30px auto;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media screen and (min-width: 1440px){
+    main {
+        max-width: 1440px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .result_wrapper{
+        justify-items: center;
+        background-image: linear-gradient(hsl(252,100%,67%), hsl(241,81%,54%));
+        border-radius: 35px;
+
+    }
+}
