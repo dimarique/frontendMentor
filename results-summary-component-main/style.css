@@ -17,7 +17,6 @@ html,
 body {
     height: 100%;
     font-size: 18px;
-    background-color: black;
 }
 body {
   line-height: 1.5;
@@ -63,9 +62,12 @@ main {
     display: grid;
     justify-items: center;
     max-width: 375px;
-    border: 1px solid grey;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: hsl(0, 0%, 100%);
+	box-shadow: 0px 0px 53px 8px hsla(252, 100%, 67%, 0.75);
+		-webkit-box-shadow: 0px 0px 53px 8px hsla(252, 100%, 67%, 0.75);
+		-moz-box-shadow: 0px 0px 53px 8px hsla(252, 100%, 67%, 0.75);
+
 }
 .value{
     color: hsl(293, 4%, 58%);
@@ -186,7 +188,7 @@ button, input[type="button"], input[type="submit"] {
     padding: 17px;
     border-radius: 35px;
     border: none;
-    color: white;
+    color: hsl(0, 0%, 100%);
     font: inherit;
     line-height: normal;
     overflow: visible;
