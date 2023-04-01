@@ -11,7 +11,6 @@
 }
 * {
     margin: 0;
-    /*border: 1px solid grey;*/
     font-family: 'Hanken Grotesk', sans-serif;
 }
 html,
@@ -105,7 +104,6 @@ main {
 }
 .result_header{
     color: hsl(221, 100%, 96%);
-    /*font-size: 20px;*/
 }
 .result_value {
     padding: 12px 40px;
@@ -135,7 +133,6 @@ main {
 
 .summary_wrapper {
 	display: grid;
-    /*max-width: 366px;*/
 	width: 100%;
     padding: 30px 30px 0 30px;
 }
@@ -212,7 +209,7 @@ button, input[type="button"], input[type="submit"] {
 
 @media screen and (min-width: 735px){
     main {
-		max-width: 735px;
+		max-width: 100%;
         grid-template-columns: 1fr 1fr;
     }
     .result_wrapper{
