@@ -1,8 +1,13 @@
 # Frontend Mentor - Results summary component
 
-![Preview](Mobile Results summary component.png) ![Preview](Desktop Results summary component.png)
 
 ## Welcome! 👋
+
+## The challenge
+![test](./mobile.png)
+
+
+![test2](./desktop.png)
 
 ## Where to find everything
 
@@ -11,7 +16,5 @@
 ## Deploying your project
 
 ## Create a custom `README.md`
-
-## Submitting your solution
 
 ## Sharing your solution
