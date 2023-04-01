@@ -1,6 +1,6 @@
 # Frontend Mentor - Results summary component
 
-![Preview](./Mobile Results summary component.png) ![Preview](./Desktop Results summary component.png)
+![Preview](Mobile Results summary component.png) ![Preview](Desktop Results summary component.png)
 
 ## Welcome! 👋
 
