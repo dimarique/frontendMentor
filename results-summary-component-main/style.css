@@ -196,6 +196,11 @@ button, input[type="button"], input[type="submit"] {
         -moz-appearance: none;
           appearance: none;
 }
+button:hover {
+	cursor: pointer;
+	transition: 0.1s ease-out;
+	box-shadow: -4px 4px 10px 1px hsl(224, 30%, 27%); 
+}
 /*attribution section*/
 
 .attribution {
