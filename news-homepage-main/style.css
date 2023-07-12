@@ -1,0 +1,30 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	max-width: 375px;
+	padding: 1rem;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav {
+	display: none;
+}
+
+
+
+p {
+	font-size: 0.75rem;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
